@@ -1,0 +1,53 @@
+Tugas 1 - Forensik Digital
+
+Nomor 1:
+Setiap kelompok menyediakan satu flash disk yang pernah diisi (bukan flash disk baru).
+Flash disk diisi sebuah file baru, kemudian dihapus (Permanent delete, bukan delete ke Recycle Bin).
+
+0. Membuat forensic image
+1. Melakukan recovery file yang telah dihapus
+2. Membuat laporan hasil investigasi (template laporan ada bisa diunduh di myITS Classroom)
+3. Dalam laporan, dilengkapi gambar-gambar screenshot. Misalnya, ketika file ditambah dan file dihapus. Selain itu, juga screenshot dari langkah-langkah dalam melakukan recovery file.
+4. Tools yang digunakan bebas. Nilai tambahan jika menggunakan tools selain yang disebutkan di slide kuliah.
+5. Contoh tools: https://help.ubuntu.com/community/DataRecovery
+
+Nomor 2 (kelompok 1-13):
+0. Instalasi sherloq (https://github.com/GuidoBartoli/sherloq)
+1. Uji coba image copy move dan analisisnya
+2. Minimal lima citra uji coba 
+3. Contoh dataset:
+Image copy move
+- https://github.com/namtpham/casia2groundtruth
+- http://lci.micc.unifi.it/labd/2015/01/copy-move-forgery-detection-and-localization/
+- https://www.vcl.fer.hr/comofod/
+
+Nomor 2 (kelompok 14-26)
+0. Instalasi sherloq (https://github.com/GuidoBartoli/sherloq)
+1. Uji coba image splicing + analisis
+2. Minimal lima citra uji coba 
+3. Contoh dataset:
+Image splicing
+- https://www.ee.columbia.edu/ln/dvmm/downloads/AuthSplicedDataSet/AuthSplicedDataSet.htm
+- https://zenodo.org/record/5525829#.Y_OgWrRBzt0
+- https://www.kaggle.com/datasets/defactodataset/defactosplicing
+- https://ieee-dataport.org/documents/fidac-forged-images-detection-and-classification
+
+Nomor 2 (kelompok 27-41)
+0. Install tool PDF forensics. Contoh:
+- https://github.com/qpdf/qpdf
+- https://github.com/mauricelambert/PDForensic
+- https://github.com/mandiant/flare-floss
+- https://github.com/pdfminer/pdfminer.six
+
+1. Unduh dataset (Note: PDF berisi malware, gunakan isolated virtual machine/sandbox jika ingin menjalankan malware)
+- https://bazaar.abuse.ch/browse.php?search=file_type%3Apdf
+- https://github.com/ytisf/theZoo
+- https://vx-underground.org/
+
+2. Contoh laporan: https://github.com/filipi86/MalwareAnalysis-in-PDF
+
+
+Format laporan PDF, diupload di myITS Classroom, cukup satu anggota kelompok yang melakukan upload.
+Demo satu minggu lagi.
+Jika ada pertanyaan, silakan email ke hudan@its.ac.id
+
